@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600&display=swap">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Form Validation</h1>
+    <div class="form-container">
+        <form>
+            <div class="elem">
+                <label for="fname">First Name</label>
+                <input type="text" name="fn" id="fname" maxlength="30" placeholder="First Name">
+                <span class="error"></span>
+            </div>
+            <div class="elem">
+                <label for="lname">Last Name</label>
+                <input type="text" name="ln" id="lname" maxlength="30" placeholder="Last Name">
+                <span class="error"></span>
+            </div>
+            <div class="elem">
+                <label for="num">Contact Number</label>
+                <input type="tel" maxlength="10" name="numb" placeholder="Enter Number">
+                <span class="error"></span>
+            </div>
+            <div class="elem">
+                <label for="mail">Email</label>
+                <input type="email" maxlength="40" name="mail" placeholder="abc.123@gmailmail.com">
+                <span class="error"></span>
+            </div>
+            <div class="elem sub">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
